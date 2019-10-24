@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h4
+{
+  margin-top: 0px;
+}
+header
+{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: robotoregular, Arial, Helvetica, sans-serif;
+}
+#blocpage
+{
+    display: flex;
+    justify-content:space-around;
+}
+
+body
+{
+    background: url(../fondecrannba3.png) fixed repeat;
+    
+}
+img
+{
+    position: relative;
+    right:15px ;
+}
+li
+{
+    list-style: none;
+    
+}
+#boston 
+{
+    font-family: robotoregular,Arial, Helvetica, sans-serif;
+    color: green;
+    font-weight: bold;
+    background-color:white;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#hornets
+{
+    font-family: robotoregular, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#bulls
+{
+    font-family: robotoregular, Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#dwaynebacon
+{
+    font-family: robotoregular,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 150px ;
+}
+
+#nicolasbatum
+{
+    font-family: robotoregular,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 150px ;
+}
+#carterwilliams
+{
+    font-family: robotoregular,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 150px ;
+}
+#treveon
+{
+    font-family: robotoregular,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 150px ;
+}
+@media (max-width : 1024px )
+{
+    #blocpage
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .equipes
+    {
+        margin: 30px;
+        max-width: 480px;
+    }
+    .joueurs
+    {
+        margin: 30px;
+        max-width: 480px;
+    }
+}
+@media (max-device-width : 480px )
+{
+    #blocpage
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .equipes
+    {
+        margin: 30px;
+        max-width: 430px;
+    }
+    .joueurs
+    {
+        margin: 30px;
+        max-width: 430px;
+    }
+
+}
