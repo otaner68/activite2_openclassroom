@@ -2,7 +2,6 @@
     font-family: 'robotoregular';
     src: url('../fonts/Roboto-Regular-webfont.eot');
     src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Regular-webfont.woff2') format('woff2'),
          url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
          url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
          url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
@@ -10,146 +9,97 @@
     font-style: normal;
 
 }
-h4
-{
-  margin-top: 0px;
-}
+
 header
 {
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     color: white;
     font-family: robotoregular, Arial, Helvetica, sans-serif;
 }
-#blocpage
-{
-    display: flex;
-    justify-content:space-around;
-}
+
+
 
 body
 {
     background: url(../fondecrannba3.png) fixed repeat;
     
 }
-img
+.equipes
 {
-    position: relative;
-    right:15px ;
+    margin-top: 20px;
 }
+ul
+{
+    font-family: robotoregular,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    background-image: radial-gradient(circle at center, white,rgb(99, 88, 88));
+     width: 300px;
+    min-height: 650px;
+    margin: 10px;
+    
+}
+
 li
 {
     list-style: none;
     
 }
-#boston 
+
+#blocPage
 {
-    font-family: robotoregular,Arial, Helvetica, sans-serif;
-    color: green;
-    font-weight: bold;
-    background-color:white;
-    border-radius: 20px;
-    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
     
 }
-#hornets
+.joueurs
 {
-    font-family: robotoregular, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
-    background-color: azure;
-    border-radius: 20px;
-    text-align: center;
-    
-}
-#bulls
-{
-    font-family: robotoregular, Arial, Helvetica, sans-serif;
-    color:black;
-    font-weight: bold;
-    background-color: red;
-    border-radius: 20px;
-    text-align: center;
+    color: rgb(18, 65, 126)
 }
 
-#dwaynebacon
+@media (max-width : 720px )
 {
-    font-family: robotoregular,Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
-    background-color: azure;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 150px ;
-}
-
-#nicolasbatum
-{
-    font-family: robotoregular,Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
-    background-color: azure;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 150px ;
-}
-#carterwilliams
-{
-    font-family: robotoregular,Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
-    background-color: azure;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 150px ;
-}
-#treveon
-{
-    font-family: robotoregular,Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
-    background-color: azure;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 150px ;
-}
-@media (max-width : 1024px )
-{
-    #blocpage
+    #blocPage
     {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
-    .equipes
+    ul
     {
         margin: 30px;
         max-width: 480px;
     }
-    .joueurs
-    {
-        margin: 30px;
-        max-width: 480px;
-    }
+    
 }
 @media (max-device-width : 480px )
 {
-    #blocpage
+    #blocPage
     {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
-    .equipes
+    .ul
     {
         margin: 30px;
         max-width: 430px;
     }
-    .joueurs
-    {
-        margin: 30px;
-        max-width: 430px;
-    }
+    
 
 }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    float: none;
+    vertical-align: baseline;
+    -webkit-font-smoothing: auto;
+}
+
